@@ -1,0 +1,78 @@
+.titulo span {
+    color:#ef3753;
+    display:inline; 
+}
+ section h2{
+    text-align: center;
+    font-family:inherit;
+    font-size: 30px;
+}
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #ef375343;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form input::placeholder, form textarea::placeholder{
+    color:#ef3753
+}
+
+form textarea{
+    resize: none;
+    height: 150px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    background-color: #f7556df1;
+    color: #faefeff9;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 110px;
+    transition: .2s;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #ef3753;
+    transform:scale(1.05) ;
+}
+
+.container button{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border:0;
+background-color: #ef3753;
+font-size: 30px;
+cursor: pointer;
+margin: 0 560px;
+transition: .2s;
+margin-top: -60px;
+margin-bottom: 10px;
+display: block;
+margin-left: 900px;
+}

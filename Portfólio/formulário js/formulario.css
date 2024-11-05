@@ -1,0 +1,165 @@
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+background-color: lightgray;
+}
+.g{
+    width: 400px;
+    height: 30px;
+}
+.pe{
+    height: 30px;
+}
+  .cell{
+    height: 30px;
+
+  }
+
+.data{
+    height: 30px;
+}
+
+.genero{
+    margin: 80px;
+}
+.dcs{
+    margin-left: 200px;
+}
+.ddt{
+    margin-top:10px;
+    margin-bottom: -50px;
+}
+.gener{
+    margin-left: 180px;
+}
+.tr{
+  margin-bottom: -40px;
+   }
+.p1{
+   position:absolute;
+   text-transform: uppercase;
+   text-decoration: none;
+   text-align: left;
+   margin-left: 350px;
+   
+}
+.p2{
+    margin-left: 800px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: none;
+}
+.cupom{
+    font-size: small;
+}
+.po{
+   
+    margin-left: 50px;
+    text-align: left;
+   accent-color: darkcyan;
+}
+.cg{
+    accent-color: darkcyan;
+}
+.prova{
+    margin: 50px;
+}
+.cup{
+    height: 30px;
+    width: 250px;
+    color: lightgray;
+    margin-bottom: -60px;
+    
+}
+.button{
+    background-color: gray;
+    color: aliceblue;
+    height: 30px;
+    width: 200px;
+    margin-left: 300px;
+    margin-bottom: -90px;
+}
+.dataProva{
+    
+    margin-bottom: 15px;
+}
+.horarioprova{
+    margin-top:-80px;
+    margin-left: 300px;
+}
+.cpf{
+    margin-bottom: 15px;
+}
+
+.rg{
+    margin-top:-70px;
+    margin-left: 200px;
+    margin-bottom: -55px;
+}
+.nac{
+    margin-top:-50px;
+    margin-left: 400px;
+}
+.cep{
+    margin-bottom: 15px;
+}
+.endereço{
+    margin-top:-70px;
+    margin-left: 200px;
+    margin-bottom: -55px;
+}
+.N{
+    margin-top:-50px;
+    margin-left: 400px;
+}
+.compl{
+    margin-bottom: 15px;
+}
+.Bairro{
+    margin-top:-70px;
+    margin-left: 200px;
+    margin-bottom: -55px;
+}
+.Cidade{
+    margin-top:-50px;
+    margin-left: 400px;
+}
+.nomesocial{
+    margin-left: 40px;
+   
+}
+.ns{
+    margin-bottom: -55px;
+    margin-right: 20px;
+}
+
+.ne{
+    margin-top: -15px;
+    margin-left: 300px;
+}
+.necessidade{
+    margin:20px;
+}
+.l{
+    width: 570px;
+    height: 30px;
+}
+.h{
+    height: 30px;
+    width: 250px;
+}
+.concluir{
+    background-color:darkcyan;
+    width: 200px;
+    height: 30px;
+    margin-top: 120px;
+    margin-left: 400px;
+    color: white;
+}
+

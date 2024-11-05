@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+    <link rel ="stylesheet" href = "formulario.css">
+    <script src ="formulario.js"></script>
+</head>
+
+<body>
+    <form class="tudo" action="">
+    <h1>Olá, preencha seus dados para realizar sua inscrição</h1>
+    <div class="p1">
+    <br>
+   <label>Nome Completo*<br></label>
+    <input type = "text" name="nome" id= "nomeid" class ="g"><br>
+   <br> <label>E-mail*<br></label>
+    <input type = "email" name="email" class = "g" id="emailid"><br>
+    <div class ="ddt">
+    <br><label> Data de Nascimento*  <br>
+    <input type = "date" name = "date" class = "data" id="datanid"><br>
+</div>
+   <div class="dcs">
+    <label>Celular Principal*<br></label>
+    <input type = "tel" name = "tel" class = "cell" id="celularid"><br>
+</div>
+<div class ="tr">
+   <br> <label>Telefone Residencial*<br></label>
+    <input type = "tel" name = "tel" class = "cell" id="telefoneid"><br>
+</div>
+    <div class="gener">
+    <label class="genero">Gênero*<br></label>
+    <input type ="radio" name="sexo" class ="cg">Masculino
+    <input type ="radio" name="sexo" class="cg"> Feminino<br>
+</div>
+  <br>  <label>Forma de Ingresso*</label><br>
+    <select class ="g" id="pagamentoid">
+        <option value="1"></option>
+        <option value="2">Pagamento Mensal</option>
+        <option value="3" >Pagamento Anual</option>
+        <option value="4" >Nota Enem</option>
+    </select><br>
+ <br>   <label>Curso*</label><br>
+    <select class ="g">
+        <option value="1"></option>
+        <option value="2" >Administração</option>
+        <option value="3" >Desenvolvimento de sistemas</option>
+        <option value="4" >Eletromecânica</option>
+        <option value="5" >Saúde e segurança no trabalho</option>
+    </select><br>
+   <br> <label>Habilitação*</label><br>
+    <select class ="g">
+        <option value="1"></option>
+        <option value="2" >Presencial</option>
+        <option value="3" >Semi-presencial</option>
+        <option value="4"  >EAD</option>
+    </select><br>
+    <br><label>Turno*</label><br>
+    <select class ="g">
+        <option value="1"></option>
+        <option value="2">Manhã</option>
+        <option value="3">Tarde</option>
+        <option value="4">Noite</option>
+    </select><br>
+
+    <br><label class="prova">Como deseja realizar a prova*</label><br>
+    <input type ="radio" name="prova"  class="po" >Presencial
+    <input type ="radio" name="prova" class ="po" >On-line <br>
+</div>
+
+<div class ="p2">
+      <label class ="cupom">Possui algum cupom de desconto?</label><br>
+      <input type ="text" name="cupom" value ="Insira o valor do desconto aqui" class="cup" >
+      <div class="cupomdiv">
+      <button type="button"  onclick="cupom()" class = "button" id="cupomid">inserir cupom</button><br>
+    </div>
+     <div class = "dataProva">
+      <br><label>Data(Prova)*</label><br>
+      <select class ="h">
+        <option value="1"></option>
+        <option value="2" >10/11/2024</option>
+        <option value="3" >20/11/2024</option>
+        <option value="4" >30/11/2024</option>
+    </select>
+</div>
+<div class ="horarioprova">
+    <br><label>Horário(Prova)*</label><br>
+      <select class ="h">
+        <option value="1"></option>
+        <option value="2" >08:00 às 12:00</option>
+        <option value="3" >12:30 às 16:30</option>
+        <option value="4" >17:00 às 21:00</option>
+    </select><br>
+</div>
+<br><label>Local da Prova*</label><br>
+<select class ="l">
+    <option value="1"></option>
+  <option value="2" >Faculdade Unit </option>
+  <option value="3">Faculdade Pio Décimo</option>
+  <option value="4" >Faculdade Uninassau</option>
+  <option value="5" >Faculdade Estácio</option>
+</select><br>
+<div class="cpf">
+<br><label>CPF*<br></label>
+<input type = "text" name = "cpf" class = "cell" id="cpfid"><br>
+</div>
+<div class="rg">
+<label>RG*<br></label>
+<input type = "text" name = "rg" class = "cell" id="rgid">
+</div>
+<div class="nac">
+<label>Nacionalidade*<br></label>
+<input type = "text" name = "nacionalidade" class = "cell" id="nacionalidadeid">
+</div><br>
+<div class="cep">
+    <label>CEP*<br></label>
+    <input type = "text" name = "cep" class = "cell" id="cepid">
+    </div>
+    <div class="endereço">
+        <label>Endereço*<br></label>
+        <input type = "text" name = "endereço" class = "cell" id="endereçoid">
+        </div>
+        <div class="N">
+            <label>Nº*<br></label>
+            <input type = "text" name = "n" class = "cell" id="nid">
+            </div><br>
+            <div class="compl">
+                <label>Complemento<br></label>
+                <input type = "text" name = "compl" class = "cell" id="complid">
+                </div>
+                <div class="Bairro">
+                    <label>Bairro<br></label>
+                    <input type = "text" name = "bairro" class = "cell" id="bairroid">
+                    </div>
+                    <div class="Cidade">
+                        <label>Cidade<br></label>
+                        <input type = "text" name = "cidade" class = "cell" id="cidadeid">
+                        </div>
+                        <div class="ns">
+                        <br><label class="nomesocial">Utilizar nome social?*</label><br>
+                        <input type ="radio" name="ns"  class="po">Não
+                        <input type ="radio" name="ns" class ="po">Sim<br>
+                    </div>
+                    <div class="ne">
+                        <br><label class="necessidade">Necessidades especiais*</label><br>
+                        <input type ="radio" name="ne"  class="po">Não
+                        <input type ="radio" name="ne" class ="po">Sim<br>
+                        </div>  
+                        <button onclick="Concluir()" class = "concluir">Concluir</button><br>
+                        
+</div>
+</form>
+</body>
+</html>
